@@ -2,6 +2,7 @@
 Google Sheets script for selecting multiple values to populate a cell
 
 Code forked from coinsandsteeldev/dialog.html, adapted from https://www.youtube.com/watch?v=dm4z9l26O0I (value separator changed from , to ;)
+
 Instructions adapted from https://stackoverflow.com/questions/23369296/selecting-multiple-values-from-a-dropdown-list-in-google-spreadsheet/53310932#53310932
 
 To use this script:
