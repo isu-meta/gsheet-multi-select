@@ -1,0 +1,21 @@
+Instructions for using multi-select script
+
+Open a Google Sheet that has the multi-select script running (you will see the Scripts menu at top). Then follow these steps:
+ 
+1. Select the cell you want to populate with multiple values. The column must have a data validation rule set up for this to work.
+2. From the Scripts menu, choose Multi-select for this cell...
+3. In the sidebar that opens at right, select multiple values to include in the cell.
+4. At the top of the sidebar, click Set.
+5. Review the cell you populated. The terms should be separated by semicolons.
+
+Note about order: To put values in a certain order, select one value at a time, click Update, deselect the previous value, select the next value, click Update, and so on.
+
+Note about the sidebar:
+You can leave the selection sidebar open. When you select any cell that has validation, click Refresh Validation in the script sidebar to bring up that cell's checklist.
+
+Note about apostrophes:
+Apostrophes cause a string to split when the script pulls it into an array of values. To avoid this problem, replace apostrophes with the HTML entity &#39;
+
+Example: Artists' studios --> Artists&#39; studios
+
+The apostrophe should appear correctly in the cell and when exported from Google Sheets or OpenRefine.
